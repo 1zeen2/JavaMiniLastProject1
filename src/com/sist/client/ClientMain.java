@@ -47,7 +47,7 @@ public class ClientMain extends JFrame implements ActionListener {
 			// 외부 록앤필을 설정합니다.
 			UIManager.setLookAndFeel("com.jtattoo.plaf.hifi.HiFiLookAndFeel");
 		} catch (Exception e) {
-			// 예외 처리.
+			// 예외 처리. 
 		}
 		// ClientMain 객체 생성
 		new ClientMain();
