@@ -51,7 +51,7 @@ public class ClientMain extends JFrame implements ActionListener {
 		}
 		// ClientMain 객체 생성
 		new ClientMain();
-	}
+	} 
 	// ActionListener의 메서드 재정의
 	@Override
 	public void actionPerformed(ActionEvent e) {

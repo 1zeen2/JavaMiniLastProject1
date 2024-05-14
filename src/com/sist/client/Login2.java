@@ -12,7 +12,7 @@ public class Login2 extends JPanel {
 	// 초기화 => 배치
 	public Login2() {
 		// GridLayout을 사용하여같은 크기의 버튼을 생성합니다. (1줄에 5개)
-		setLayout(new GridLayout(1, 5));	
+		setLayout(new GridLayout(1, 1));	
 		b1 = new JButton("로그인");		// 목록 출력, 상세 보기
 		
 		// 총 11개의 클래스가 사용된다.

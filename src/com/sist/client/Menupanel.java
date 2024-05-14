@@ -12,7 +12,8 @@ public class Menupanel extends JPanel {
 	// 초기화 => 배치
 	public Menupanel() {
 		// GridLayout을 사용하여같은 크기의 버튼을 생성합니다. (1줄에 5개)
-		setLayout(new GridLayout(1, 5));	
+		setLayout(new GridLayout(1, 5));
+		setLayout(new GridLayout(1, 1));
 		b1 = new JButton("홈");		// 목록 출력, 상세 보기
 		b2 = new JButton("검색");	// 검색, 상세 보기
 		b3 = new JButton("채팅");	// 쪽지, 채팅창
